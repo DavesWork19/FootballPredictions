@@ -2,6 +2,11 @@ div {
   text-align: center;
 }
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Winner {
   border: solid;
   border-color: #228B22;

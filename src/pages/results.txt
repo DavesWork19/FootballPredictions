@@ -1,0 +1,14 @@
+Falcons,Panthers,78.43
+Seahawks,Buccaneers,9.86
+Bills,Vikings,26.33
+Bears,Lions,78.13
+Titans,Broncos,86.16
+Chiefs,Jaguars,94.27
+Dolphins,Browns,65.48
+Giants,Texans,26.93
+Saints,Steelers,25.75
+Colts,Raiders,6.01
+Packers,Cowboys,5.53
+Rams,Cardinals,68.28
+Chargers,49ers,5.6
+Eagles,Washington,78.49

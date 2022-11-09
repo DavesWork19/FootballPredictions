@@ -1,0 +1,29 @@
+.homeButton {
+
+  border-style: solid;
+  border-radius: 7px;
+  border-color: black;
+  background-color: lightgrey;
+
+
+  width: 300px;
+
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+
+  font-size: 60px;
+  font-family: cursive;
+  line-height: 34px;
+
+
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.homeButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.63),0 17px 50px 0 rgba(0,0,0,0.49);
+}

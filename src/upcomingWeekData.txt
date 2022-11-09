@@ -1,0 +1,14 @@
+Falcons_Panthers_Thu
+Seahawks_Buccaneers_Sun
+Vikings_Bills_Sun
+Lions_Bears_Sun
+Broncos_Titans_Sun
+Jaguars_Chiefs_Sun
+Browns_Dolphins_Sun
+Texans_Giants_Sun
+Saints_Steelers_Sun
+Colts_Raiders_Sun
+Cowboys_Packers_Sun
+Cardinals_Rams_Sun
+Chargers_49ers_Sun
+Washington_Eagles_Mon
