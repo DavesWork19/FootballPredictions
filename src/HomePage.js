@@ -58,16 +58,15 @@ function NewHome()
 
 
   return (
-    <div id="Body">
-
+    <div class="container-fluid mt-3 Body">
+      
       <h1 id="header">
         Select a matchup to be predicted
       </h1>
+      
+      <div class="row flex-nowrap">
 
-
-      <div className="grid-container">
-
-        <table className="AFCTable">
+        <table class="col AFCTable">
           <tbody>
 
             <tr>
@@ -165,7 +164,7 @@ function NewHome()
           </tbody>
         </table>
 
-        <table id="matchupTable">
+        <table class="col matchupTable">
           <tbody>
 
             <tr>
@@ -177,7 +176,7 @@ function NewHome()
           </tbody>
         </table>
 
-        <table className="NFCTable">
+        <table class="col NFCTable">
           <tbody>
 
             <tr>
@@ -281,7 +280,8 @@ function NewHome()
 
       </div>
 
-      <table className="weekHeaders">
+
+      <table class="table table-bordered weekHeaders">
         <thead>
           <tr>
             {weekHead()}
@@ -296,9 +296,11 @@ function NewHome()
 
 
       <div id="footer">
-      *Percentages represent the accuracy of the model for the 2022 season.
+        *Predicted results are subject to change until the start of each matchup. <br></br>
+        **Percentages represent the accuracy of the model for the 2022 season.
       </div>
 
+      
     </div>
   );
 }

@@ -1,4 +1,7 @@
-
+.Body {
+  margin-left: auto;
+  margin-right: auto;
+}
 #header {
   text-align: center;
   padding-top: 20px;
@@ -17,20 +20,25 @@
   border: solid;
   border-radius: 7px;
   background-color: OrangeRed;
-  width: 300px;
+  /*width: 300px;*/
+  max-width: 400px;
 }
 .NFCTable {
   border: solid;
   border-radius: 7px;
   background-color: Royalblue;
-  width: 300px;
+  /*width: 300px;*/
+  max-width: 400px;
 }
 .Conferences {
-  height: 20px;
+  /*height: 20px;*/
+  max-height: 100px;
+  min-height: 20px;
   font-size: 37px;
 }
 
 .DivisionTop3 {
+  
   margin-left: auto;
   margin-right: auto;
   border: solid;
@@ -40,7 +48,12 @@
   padding-bottom: 10px;
   margin-bottom: 75px;
 
-  width: 200px;
+  width: 250px;
+  /*
+  max-width: 300px;
+  min-width: 170px;*/
+
+  font-size: 20px;
 }
 .DivisionBottom {
   margin-left: auto;
@@ -51,7 +64,12 @@
   padding-top: 10px;
   padding-bottom: 10px;
 
-  width: 200px;
+  width: 250px;
+  /*
+  max-width: 300px;
+  min-width: 170px;
+  */
+  font-size: 20px;
 }
 
 .Division {
@@ -59,16 +77,10 @@
 }
 .DivisionData {
   text-align: left;
+  border-style: solid;
+  border-width: 1px;
 }
-.DivisionTable {
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
-  padding-right: 25px;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  border: solid;
-}
+
 
 
 #matchupTable {
@@ -92,7 +104,6 @@
 
 .weekHeaders {
   border: solid;
-  border-radius: 7px;
 
   margin-top: 20px;
 
