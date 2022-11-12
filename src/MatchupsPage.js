@@ -114,131 +114,131 @@ function Matchups()
 
     if (homeTeam.find(a => a.includes(buf)))
     {
-      return(<img src={bufLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={bufLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(mia)))
     {
-      return(<img src={miaLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={miaLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(nwe)))
     {
-      return(<img src={nweLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={nweLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(nyj)))
     {
-      return(<img src={nyjLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={nyjLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(cin)))
     {
-      return(<img src={cinLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={cinLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(cle)))
     {
-      return(<img src={cleLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={cleLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(pit)))
     {
-      return(<img src={pitLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={pitLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(rav)))
     {
-      return(<img src={ravLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={ravLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(clt)))
     {
-      return(<img src={cltLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={cltLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(htx)))
     {
-      return(<img src={htxLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={htxLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(jax)))
     {
-      return(<img src={jaxLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={jaxLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(oti)))
     {
-      return(<img src={otiLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={otiLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(den)))
     {
-      return(<img src={denLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={denLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(kan)))
     {
-      return(<img src={kanLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={kanLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(rai)))
     {
-      return(<img src={raiLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={raiLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(sdg)))
     {
-      return(<img src={sdgLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={sdgLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(dal)))
     {
-      return(<img src={dalLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={dalLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(nyg)))
     {
-      return(<img src={nygLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={nygLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(phi)))
     {
-      return(<img src={phiLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={phiLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(was)))
     {
-      return(<img src={wasLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={wasLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(chi)))
     {
-      return(<img src={chiLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={chiLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(det)))
     {
-      return(<img src={detLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={detLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(gnb)))
     {
-      return(<img src={gnbLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={gnbLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(min)))
     {
-      return(<img src={minLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={minLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(atl)))
     {
-      return(<img src={atlLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={atlLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(car)))
     {
-      return(<img src={carLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={carLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(nor)))
     {
-      return(<img src={norLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={norLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(tam)))
     {
-      return(<img src={tamLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={tamLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(crd)))
     {
-      return(<img src={crdLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={crdLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(ram)))
     {
-      return(<img src={ramLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={ramLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(sea)))
     {
-      return(<img src={seaLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={seaLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
     else if (homeTeam.find(a => a.includes(sfo)))
     {
-      return(<img src={sfoLogo} class="w-25 rounded img-fluid float-right homeTeam" alt="logo"></img>)
+      return(<img src={sfoLogo} className="col-2 homeTeam" alt="logo"></img>)
     }
   }
 
@@ -283,131 +283,131 @@ function Matchups()
 
     if (awayTeam.find(b => b.includes(buf)))
     {
-      return(<img src={bufLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={bufLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(mia)))
     {
-      return(<img src={miaLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={miaLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(nwe)))
     {
-      return(<img src={nweLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={nweLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(nyj)))
     {
-      return(<img src={nyjLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={nyjLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(cin)))
     {
-      return(<img src={cinLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={cinLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(cle)))
     {
-      return(<img src={cleLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={cleLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(pit)))
     {
-      return(<img src={pitLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={pitLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(rav)))
     {
-      return(<img src={ravLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={ravLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(clt)))
     {
-      return(<img src={cltLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={cltLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(htx)))
     {
-      return(<img src={htxLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={htxLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(jax)))
     {
-      return(<img src={jaxLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={jaxLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(oti)))
     {
-      return(<img src={otiLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={otiLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(den)))
     {
-      return(<img src={denLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={denLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(kan)))
     {
-      return(<img src={kanLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={kanLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(rai)))
     {
-      return(<img src={raiLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={raiLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(sdg)))
     {
-      return(<img src={sdgLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={sdgLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(dal)))
     {
-      return(<img src={dalLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={dalLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(nyg)))
     {
-      return(<img src={nygLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={nygLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(phi)))
     {
-      return(<img src={phiLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={phiLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(was)))
     {
-      return(<img src={wasLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={wasLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(chi)))
     {
-      return(<img src={chiLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={chiLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(det)))
     {
-      return(<img src={detLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={detLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(gnb)))
     {
-      return(<img src={gnbLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={gnbLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(min)))
     {
-      return(<img src={minLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={minLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(atl)))
     {
-      return(<img src={atlLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={atlLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(car)))
     {
-      return(<img src={carLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={carLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(nor)))
     {
-      return(<img src={norLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={norLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(tam)))
     {
-      return(<img src={tamLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={tamLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(crd)))
     {
-      return(<img src={crdLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={crdLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(ram)))
     {
-      return(<img src={ramLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={ramLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(sea)))
     {
-      return(<img src={seaLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={seaLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
     else if (awayTeam.find(b => b.includes(sfo)))
     {
-      return(<img src={sfoLogo} class="w-25 rounded img-fluid float-left awayTeam" alt="logo"></img>)
+      return(<img src={sfoLogo} className="col-2 awayTeam" alt="logo"></img>)
     }
   }
 
@@ -416,8 +416,8 @@ function Matchups()
     return(
             teams.map(team =>
               <tr key={team.toString()}>
-                <td>
-                  <button class="homeButton" onClick={() => matchup(team)}>
+                <td className="container">
+                  <button className="row homeButton" onClick={() => matchup(team)}>
                     {setAwayTeam(team)}@{setHomeTeam(team)}
                   </button>
                 </td>

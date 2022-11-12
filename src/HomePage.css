@@ -1,44 +1,31 @@
-.Body {
-  margin-left: auto;
-  margin-right: auto;
-}
-#header {
+
+h1 {
   text-align: center;
   padding-top: 20px;
 }
-#footer {
-  text-align: center;
+footer {
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
 .AFCTable {
-  border: solid;
+  border-style: solid;
+  border-color: black;
   border-radius: 7px;
   background-color: OrangeRed;
-  /*width: 300px;*/
-  max-width: 400px;
 }
 .NFCTable {
-  border: solid;
+  border-style: solid;
+  border-color: black;
   border-radius: 7px;
   background-color: Royalblue;
-  /*width: 300px;*/
-  max-width: 400px;
 }
 .Conferences {
-  /*height: 20px;*/
-  max-height: 100px;
-  min-height: 20px;
   font-size: 37px;
 }
 
 .DivisionTop3 {
-  
+
   margin-left: auto;
   margin-right: auto;
   border: solid;
@@ -48,10 +35,7 @@
   padding-bottom: 10px;
   margin-bottom: 75px;
 
-  width: 250px;
-  /*
-  max-width: 300px;
-  min-width: 170px;*/
+  min-width: 80%;
 
   font-size: 20px;
 }
@@ -63,12 +47,12 @@
 
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 95%;
 
-  width: 250px;
-  /*
-  max-width: 300px;
-  min-width: 170px;
-  */
+
+
+  min-width: 80%;
+
   font-size: 20px;
 }
 
@@ -80,25 +64,6 @@
   border-style: solid;
   border-width: 1px;
 }
-
-
-
-#matchupTable {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.awayLogo {
-  border-radius: 15px;
-  padding-left: 10px;
-  padding-right:20px;
-}
-.homeLogo {
-  padding-left: 25px;
-  padding-right: 10px;
-  border-radius: 15px;
-}
-
 
 
 

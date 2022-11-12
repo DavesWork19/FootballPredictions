@@ -58,15 +58,17 @@ function NewHome()
 
 
   return (
-    <div class="container-fluid mt-3 Body">
-      
-      <h1 id="header">
-        Select a matchup to be predicted
-      </h1>
-      
-      <div class="row flex-nowrap">
+    <div className="container-fluid">
 
-        <table class="col AFCTable">
+      <div className="row">
+        <h1 className="col-12">
+          Select a matchup to be predicted
+        </h1>
+      </div>
+
+      <div className="row">
+
+        <table className="col-3 col-md-3 AFCTable">
           <tbody>
 
             <tr>
@@ -164,7 +166,7 @@ function NewHome()
           </tbody>
         </table>
 
-        <table class="col matchupTable">
+        <table className="col-4 col-md-4">
           <tbody>
 
             <tr>
@@ -176,7 +178,7 @@ function NewHome()
           </tbody>
         </table>
 
-        <table class="col NFCTable">
+        <table className="col-3 col-md-3 NFCTable">
           <tbody>
 
             <tr>
@@ -280,27 +282,28 @@ function NewHome()
 
       </div>
 
-
-      <table class="table table-bordered weekHeaders">
-        <thead>
-          <tr>
-            {weekHead()}
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            {weekBody()}
-          </tr>
-        </tbody>
-      </table>
-
-
-      <div id="footer">
-        *Predicted results are subject to change until the start of each matchup. <br></br>
-        **Percentages represent the accuracy of the model for the 2022 season.
+      <div className="row">
+        <table className="col-12 table table-bordered weekHeaders">
+          <thead>
+            <tr>
+              {weekHead()}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              {weekBody()}
+            </tr>
+          </tbody>
+        </table>
       </div>
 
-      
+      <div className="row">
+        <footer className="col-12">
+          *Predicted results are subject to change until the start of each matchup. <br></br>
+          **Percentages represent the accuracy of the model for the 2022 season.
+        </footer>
+      </div>
+
     </div>
   );
 }
